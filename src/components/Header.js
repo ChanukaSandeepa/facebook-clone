@@ -10,11 +10,11 @@ export default function Header() {
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"/>
                 <div className="header_input">
                     <Search/>
-                    <input type="text"/>
+                    <input placeholder="Search Facebook" type="text"/>
                 </div>
             </div>
             <div className="header_middle">
-                <div className="header_option">
+                <div className="header_option header_option_active">
                     <Home fontSize="large"/>
                 </div>
                 <div className="header_option">
