@@ -7,7 +7,7 @@ export default function SidebarRow({title, src, Icon}) {
         <div className="sidebarrow">
             {src && <Avatar src={src}/>}
             {Icon && <Icon/>}
-            <p>{title}</p>
+            <h4>{title}</h4>
         </div>
     )
 }
