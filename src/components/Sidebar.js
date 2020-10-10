@@ -6,6 +6,7 @@ import { LocalHospital, EmojiFlags, People, Chat, Storefront, VideoLibrary, Expa
 export default function Sidebar() {
     return (
         <div className="sidebar">
+            <div className="sidebar-content">
             <SidebarRow 
                 src="https://avatars3.githubusercontent.com/u/39334952?s=400&u=42061931996f972756c2705384a1fdad1c287885&v=4" 
                 title="Chanuka Sandeepa"/>
@@ -37,6 +38,8 @@ export default function Sidebar() {
                 title="Marketplace"
                 Icon={ExpandMoreOutlined}
             />
+            </div>
+            
         </div>
     )
 }

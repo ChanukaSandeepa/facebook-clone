@@ -33,8 +33,8 @@ export default function Header() {
             </div>
             <div className="header_right">
                 <div className="header_info">
-                    <Avatar/>
-                    <h4>Chanuka</h4>
+                    <Avatar src="https://lh3.googleusercontent.com/ogw/ADGmqu_N4hTd9mcxp_qxRpud7p7CyoGQRYliMZ_8Qlp4=s192-c-mo"/>
+                    {/* <h4>Chanuka Sandeepa</h4> */}
                 </div>
                 <IconButton>
                     <Add/>

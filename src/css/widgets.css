@@ -1,10 +1,11 @@
-.sidebar {
-    padding: 10px 10px;
+.widgets {
     width: 30%;
     position: relative;
+    right: 0;
+    padding-right: 70px;
 }
 
-.sidebar-content {
+.widget {
     position: fixed;
-
+    
 }

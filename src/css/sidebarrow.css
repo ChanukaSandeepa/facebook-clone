@@ -1,8 +1,9 @@
 .sidebarrow {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding-left: 10px;
     cursor: pointer;
+    height: fit-content;
 }
 
 .sidebarrow:hover {

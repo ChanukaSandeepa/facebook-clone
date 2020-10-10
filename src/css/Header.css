@@ -1,5 +1,5 @@
 .header {
-    padding: 15px 20px;
+    padding: 0px 15px;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -12,6 +12,7 @@
 .header_left {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header_right {
