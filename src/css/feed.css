@@ -8,3 +8,11 @@
     align-items: center;
     /* background-color: hotpink; */
 }
+
+.setup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
